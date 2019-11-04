@@ -16,6 +16,7 @@
 <p></p>
 <h1>WEEK</h1>
 <h2>WEEK2~WEEK5</h2>
+<p>week2</p>
 <p>建立自己倉儲</p>
 <p>將2019fall可攜式套件載入自己隨身碟裡</p>
 <p>git  clone倉儲網址</p>
@@ -24,4 +25,27 @@
 <p>近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
 <p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add  git commit  git push 將內容推到遠端.</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/XEN5YQWK4S8" width="560"></iframe></p>
+<p></p>
+<p>week3</p>
+<p>Solvespace 編譯<span>流程</span></p>
+<p><span>將Solvespace載至自己隨身碟中</span></p>
+<p><span>先將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe</span></p>
+<p><span>輸入git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace取得子模組資料</span></p>
+<p><span>進入到Y:\tmp\solvespace\extlib\angle\CMakeLists.txt並將713714行前面加上#</span></p>
+<p><span>把 libpng.dll.a 改名為libpng_static.a並放到編譯系統的 lib 目錄中</span></p>
+<p>接著到solvespace裡面的<span>extlib再到libpng裡面建立一資料夾build</span></p>
+<p>cd build裡面打入<span>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release</span></p>
+<p><span>好了後再輸入mingw32-make以及 </span></p>
+<p>(mingw32-make -Wl,-static)</p>
+<p>接著回到 solvespace 原始碼目錄, 建立 build 目錄後進入 build 目錄</p>
+<p>執行<span>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release</span><br/><span>以及mingw32-make</span></p>
+<p><span></span></p>
+<p></p>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/wUh5GHPvndo" width="560"></iframe></span></p>
+<p>week5</p>
+<p>solvespace練習</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/WWwaNAp3v_M" width="560"></iframe></p>
 <h2>WEEK6~WEEK9</h2>
+<p>week6</p>
+<p><span>利用Solvespace畫出車子</span></p>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/YCeOuFLPeAk" width="560"></iframe></span></p>
