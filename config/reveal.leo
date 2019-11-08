@@ -338,11 +338,17 @@ vertical: body pane on the botton</t>
 <t tx="leo.20191108151407.2">## CAD2019 課程簡介
 
 W2-先建立github倉儲，在clone到自己的隨身系統及分組
+
 W3-Solvespace 編譯與繪圖應用基本操作
+
 W5-Solvespace debugger編譯與繪圖示範
+
 W6-網際 V-rep 模型控制及參數化零組件繪製
+
 W7-solvespace編譯-從HELP中ABOUT的學號及繪製零件
+
 W8-Webot
+
 W9-驗證 reveal 期中簡報
 </t>
 </tnodes>
