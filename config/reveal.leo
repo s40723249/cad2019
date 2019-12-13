@@ -328,15 +328,11 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191213151039.3"># WEEK 3 Solespace編譯
+<t tx="leo.20191213151039.3">## WEEK 3 Solespace編譯
 
 &lt;small&gt;
-Solvespace 編譯流程
-將Solvespace載至自己隨身碟中
-先將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe輸入git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace取得子模組資料進入到Y:\tmp\solvespace\extlib\angle\CMakeLists.txt並將713714行前面加上#把 libpng.dll.a 改名為libpng_static.a並放到編譯系統的 lib 目錄中接著到solvespace裡面的extlib再到libpng裡面建立一資料夾buildcd build裡面打入cmake .. -G"MinGWMakefiles"DCMAKE_BUILD_TYPE=Release好了後再輸入mingw32-make以及 
-(mingw32-make -Wl,-static)
-接著回到 solvespace 原始碼目錄, 建立 build 目錄後進入 build 目錄
-執行cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release
+將Solvespace載至自己隨身碟中先將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe輸入git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace取得子模組資料進入到Y\tmp\solvespace\extlib\angle\CMakeLists.txt並將713714行前面加上#把 libpng.dll.a 改名為libpng_static.a並放到編譯系統的 lib 目錄中接著到solvespace裡面的extlib再到libpng裡面建立一資料夾buildcd build裡面打入cmake .. -G"MinGWMakefiles"DCMAKE_BUILD_TYPE=Release好了後再輸入mingw32-make以及 (mingw32-make -Wl,-static)
+接著回到 solvespace 原始碼目錄, 建立 build 目錄後進入 build 目錄執行cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release
 以及mingw32-make
 &lt;/small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/wUh5GHPvndo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
@@ -356,7 +352,7 @@ Solvespace 編譯流程
 
 						
 </t>
-<t tx="leo.20191213151041.3"># WEEK 5 Solvespace練習
+<t tx="leo.20191213151041.3">## WEEK 5 Solvespace練習
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/WWwaNAp3v_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191213151042.1">&lt;section&gt;
