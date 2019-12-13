@@ -24,20 +24,59 @@
 <v t="leo.20191108151407.1"><vh>封面投影片</vh>
 <v t="leo.20191108151407.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20191213144821.1"><vh>各式內容引用範例</vh>
+<v t="leo.20191213144821.1"><vh>WEEK2</vh>
 <v t="leo.20191213144821.2"><vh>導入數學符號與方程式</vh>
 <v t="leo.20191213144821.3"><vh>LaTeX 格式方程式</vh></v>
 </v>
 </v>
-<v t="leo.20191213144823.1"><vh>各式內容引用範例</vh>
-<v t="leo.20191213144823.2"><vh>導入數學符號與方程式</vh>
-<v t="leo.20191213144823.3"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20191213151039.1"><vh>WEEK3</vh>
+<v t="leo.20191213151039.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20191213151039.3"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20191213144823.4"><vh>導入縮排程式碼</vh>
-<v t="leo.20191213144823.5"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20191213144823.6"><vh>導入影片</vh>
-<v t="leo.20191213144823.7"><vh>iframe 導入影片</vh></v>
+<v t="leo.20191213151041.1"><vh>WEEK5</vh>
+<v t="leo.20191213151041.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20191213151041.3"><vh>LaTeX 格式方程式</vh></v>
+</v>
+</v>
+<v t="leo.20191213151042.1"><vh>WEEK6</vh>
+<v t="leo.20191213151042.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20191213151042.3"><vh>LaTeX 格式方程式</vh></v>
+</v>
+</v>
+<v t="leo.20191213151044.1"><vh>WEEK6-1</vh>
+<v t="leo.20191213151044.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20191213151044.3"><vh>LaTeX 格式方程式</vh></v>
+</v>
+</v>
+<v t="leo.20191213151045.1"><vh>WEEK7</vh>
+<v t="leo.20191213151045.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20191213151045.3"><vh>LaTeX 格式方程式</vh></v>
+</v>
+</v>
+<v t="leo.20191213151047.1"><vh>WEEK7-1</vh>
+<v t="leo.20191213151047.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20191213151047.3"><vh>LaTeX 格式方程式</vh></v>
+</v>
+</v>
+<v t="leo.20191213151048.1"><vh>WEEK8</vh>
+<v t="leo.20191213151048.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20191213151048.3"><vh>LaTeX 格式方程式</vh></v>
+</v>
+</v>
+<v t="leo.20191213151913.1"><vh>WEEK8-1</vh>
+<v t="leo.20191213151913.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20191213151913.3"><vh>LaTeX 格式方程式</vh></v>
+</v>
+</v>
+<v t="leo.20191213151915.1"><vh>WEEK10</vh>
+<v t="leo.20191213151915.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20191213151915.3"><vh>LaTeX 格式方程式</vh></v>
+</v>
+</v>
+<v t="leo.20191213151917.1"><vh>WEEK12</vh>
+<v t="leo.20191213151917.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20191213151917.3"><vh>LaTeX 格式方程式</vh></v>
 </v>
 </v>
 </v>
@@ -273,12 +312,12 @@ vertical: body pane on the botton</t>
 建立自己倉儲，將2019fall可攜式套件載入自己隨身碟裡git  clone倉儲網址git submodule add https://github.com/mdecourse/cmsimde cmsimde建立 cmsimde 目錄, 並從 github 取下子模組內容.近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add  git commit  git push 將內容推到遠端.
 &lt;/small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XEN5YQWK4S8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20191213144823.1">&lt;section&gt;
+<t tx="leo.20191213151039.1">&lt;section&gt;
 @others
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20191213144823.2">&lt;section data-markdown&gt;
+<t tx="leo.20191213151039.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -289,14 +328,24 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191213144823.3"># 數學符號與方程式
+<t tx="leo.20191213151039.3"># WEEK 3 Solespace編譯
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
+&lt;small&gt;
+Solvespace 編譯流程
+將Solvespace載至自己隨身碟中
+先將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe輸入git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace取得子模組資料進入到Y:\tmp\solvespace\extlib\angle\CMakeLists.txt並將713714行前面加上#把 libpng.dll.a 改名為libpng_static.a並放到編譯系統的 lib 目錄中接著到solvespace裡面的extlib再到libpng裡面建立一資料夾buildcd build裡面打入cmake .. -G"MinGWMakefiles"DCMAKE_BUILD_TYPE=Release好了後再輸入mingw32-make以及 
+(mingw32-make -Wl,-static)
+接著回到 solvespace 原始碼目錄, 建立 build 目錄後進入 build 目錄
+執行cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release
+以及mingw32-make
+&lt;/small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/wUh5GHPvndo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191213151041.1">&lt;section&gt;
+@others
+&lt;/section&gt;
 
-$$I = \int \rho R^{2} dV$$
 </t>
-<t tx="leo.20191213144823.4">&lt;section data-markdown&gt;
+<t tx="leo.20191213151041.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -307,48 +356,189 @@ $$I = \int \rho R^{2} dV$$
 
 						
 </t>
-<t tx="leo.20191213144823.5">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+<t tx="leo.20191213151041.3"># WEEK 5 Solvespace練習
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/WWwaNAp3v_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191213151042.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
 </t>
-<t tx="leo.20191213144823.6">&lt;section data-markdown&gt;
+<t tx="leo.20191213151042.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
+
 						
 </t>
-<t tx="leo.20191213144823.7">## 使用 iframe 導入影片
+<t tx="leo.20191213151042.3"># WEEK 6 利用Solvespace畫出車子
 
-### 導入影片 template
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YCeOuFLPeAk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191213151044.1">&lt;section&gt;
+@others
+&lt;/section&gt;
 
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
+<t tx="leo.20191213151044.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20191213151044.3"># WEEK 6-1 利用vrep3遠端控制模型車的移動
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/iiUXrjx6nwM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191213151045.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20191213151045.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20191213151045.3"># WEEK 7 將solvespace about裡改成自己學號
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/TCFPOrQyZ2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191213151047.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20191213151047.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20191213151047.3"># WEEK 7-1 繪圖認證
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/4jRp5FPwpTg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191213151048.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20191213151048.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20191213151048.3"># WEEK 8 
+
+&lt;small&gt;
+打開LEO並且把pelican.leo拖進去
+到pelican設定的@edit貼上自己的biog網址
+對local-blog按右鍵Goto Script 複製裡面指令
+到自己資料夾內輸入這段指令
+到近端確認是否完成
+&lt;/small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/lZFVf6vYBfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191213151913.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20191213151913.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20191213151913.3"># WEEK 8 
+
+&lt;small&gt;
+首先先把start複製下來
+到2019/data/webots貼上剛剛複製的start
+把剛剛複製的改名並且拖到編輯器裡面
+增加set path_webots=%Disk%:\Webots_2019b_rev1\msys64\mingw64\bin;%Disk%:\Webots_2019b_rev1\msys64\usr\bin
+並在path=%..這段後面新增%path_webots%
+在下面再新增一段start Y:\Webots_2019b_rev1\msys64\mingw64\bin\webots.exe
+啟動
+&lt;/small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-pXrKDauKmw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191213151915.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20191213151915.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20191213151915.3"># WEEK 10 
+
+&lt;small&gt;
+組長建立好整組要用的倉儲後，組員要到倉儲下去fork這樣才可以讓每個人都可以push,利用指令git clone --recurse-submodules將組倉儲clone進隨身碟中，而每次要push之前都要先git pull 以確保資料的錯誤，在push之後組員也必須按pull new request才能請組長確保push成功
+&lt;/small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/H0xmkLuIYeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191213151917.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20191213151917.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20191213151917.3"># WEEK 12 webot tutorial - 1
+
+&lt;small&gt;
+.先創建儲存檔案的資料夾
+創建一個新生成的世界
+創建好之後先用加號加入一個木箱並更改其尺寸
+添加完成了之後我們要複製並貼上木箱直到場面上有三個木箱
+添加e-puck robot並且啟動試試看是否可以運動
+增加控制器操縱e-puck robot添加指令後機器人應該會直走並旋轉後停下
+修改這個控制器的功能貼上另一個指令如果成功機器人因該會緩慢行走
+修改機器人馬達的動力使其達到原地旋轉
+&lt;small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ZT9IxOKT2iI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
