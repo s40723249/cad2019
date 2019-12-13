@@ -306,7 +306,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191213144821.3"># WEEK 2 建立倉儲
+<t tx="leo.20191213144821.3">## WEEK 2 建立倉儲
 
 &lt;small&gt;
 建立自己倉儲，將2019fall可攜式套件載入自己隨身碟裡git  clone倉儲網址git submodule add https://github.com/mdecourse/cmsimde cmsimde建立 cmsimde 目錄, 並從 github 取下子模組內容.近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add  git commit  git push 將內容推到遠端.
@@ -390,7 +390,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191213151044.3"># WEEK 6-1 利用vrep3遠端控制模型車的移動
+<t tx="leo.20191213151044.3">## WEEK 6-1 利用vrep3遠端控制模型車的移動
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/iiUXrjx6nwM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191213151045.1">&lt;section&gt;
@@ -409,7 +409,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191213151045.3"># WEEK 7 將solvespace about裡改成自己學號
+<t tx="leo.20191213151045.3">## WEEK 7 將solvespace about裡改成自己學號
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/TCFPOrQyZ2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191213151047.1">&lt;section&gt;
@@ -428,7 +428,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191213151047.3"># WEEK 7-1 繪圖認證
+<t tx="leo.20191213151047.3">## WEEK 7-1 繪圖認證
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/4jRp5FPwpTg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191213151048.1">&lt;section&gt;
@@ -447,7 +447,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191213151048.3"># WEEK 8 
+<t tx="leo.20191213151048.3">## WEEK 8 
 
 &lt;small&gt;
 打開LEO並且把pelican.leo拖進去
@@ -473,7 +473,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191213151913.3"># WEEK 8 
+<t tx="leo.20191213151913.3">## WEEK 8 
 
 &lt;small&gt;
 首先先把start複製下來
@@ -501,7 +501,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191213151915.3"># WEEK 10 
+<t tx="leo.20191213151915.3">## WEEK 10 
 
 &lt;small&gt;
 組長建立好整組要用的倉儲後，組員要到倉儲下去fork這樣才可以讓每個人都可以push,利用指令git clone --recurse-submodules將組倉儲clone進隨身碟中，而每次要push之前都要先git pull 以確保資料的錯誤，在push之後組員也必須按pull new request才能請組長確保push成功
@@ -523,7 +523,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191213151917.3"># WEEK 12 webot tutorial - 1
+<t tx="leo.20191213151917.3">## WEEK 12 webot tutorial - 1
 
 &lt;small&gt;
 .先創建儲存檔案的資料夾
