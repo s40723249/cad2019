@@ -275,8 +275,9 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191213144821.3"># WEEK 2 建立倉儲
 
+&lt;small&gt;
 建立自己倉儲，將2019fall可攜式套件載入自己隨身碟裡git  clone倉儲網址git submodule add https://github.com/mdecourse/cmsimde cmsimde建立 cmsimde 目錄, 並從 github 取下子模組內容.近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add  git commit  git push 將內容推到遠端.
-</t>
+&lt;/small&gt;</t>
 <t tx="leo.20191213144821.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -325,12 +326,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20191213144821.7">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://www.youtube.com/watch?v=XEN5YQWK4S8&amp;feature=emb_logo" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+<t tx="leo.20191213144821.7">&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XEN5YQWK4S8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191213144823.1">&lt;section&gt;
 @others
 &lt;/section&gt;
