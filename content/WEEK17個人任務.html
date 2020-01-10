@@ -143,7 +143,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='WEEK.html'>WEEK</a><ul class='dropdown'><li><a href='WEEK2~WEEK5.html'>WEEK2~WEEK5</a><li><a href='WEEK6~WEEK9.html'>WEEK6~WEEK9</a><li><a href='week10~week14.html'>week10~week14</a><li><a href='week15.html'>week15</a><li><a href='WEEK16.html'>WEEK16</a><li><a href='WEEK17個人任務.html'>WEEK17個人任務</a></li>
+                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='WEEK.html'>WEEK</a><ul class='dropdown'><li><a href='WEEK2~WEEK5.html'>WEEK2~WEEK5</a><li><a href='WEEK6~WEEK9.html'>WEEK6~WEEK9</a><li><a href='week10~week14.html'>week10~week14</a><li><a href='week15.html'>week15</a><li><a href='WEEK16.html'>WEEK16</a><li><a href='WEEK17個人任務.html'>WEEK17個人任務</a><li><a href='WEEK18.html'>WEEK18</a></li>
                       </ul>
                 </nav>
               </div>
@@ -154,7 +154,7 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">WEEK16 << <a href='WEEK16.html'>Previous</a> <br /><h1>WEEK17個人任務</h1>
+    <div id="tipue_search_content">WEEK16 << <a href='WEEK16.html'>Previous</a> <a href='WEEK18.html'>Next</a> >> WEEK18<br /><h1>WEEK17個人任務</h1>
 <p>個人分組翻譯</p>
 <p>This tutorial will guide you step-by-step into building a clean simulation model, of a robot, or any other item. This is a very important topic, maybe the most important aspect, in order to. have a nice looking, fast displaying, fast simulating and stable simulation model.</p>
 <p>To illustrate the model building process, we will be building following manipulator:</p>
@@ -198,7 +198,8 @@ img.add_border {
 <p>Building the joints<br/>Now we will take care of the joints/motors. Most of the time, we know the exact position and orientation of each of the joints.<br/>In that case, we simply add the joints with [Menu bar --&gt; Add --&gt; Joints --&gt; ...], then we can change their position and orientation with the position dialog and orientation dialog.<br/>In other situations, we only have the Denavit-Hartenberg (i.e. D-H) parameters. In that case, we can build our joints via the tool model located in Models/tools/Denavit-Hartenberg joint creator.ttm, in the model browser.<br/>Othertimes, we have no information about the joint locations and orientations.<br/>Then, we need to extract them from the imported mesh. Let's suppose this is our case. Instead of working on the modified, more approximate mesh, we open a new scene, and import the original CAD data again.<br/>Most of the time, we can extract meshes or primitive shapes from the original mesh. The first step is to subdivide the original mesh. If that does not work, we do it via the triangle edit mode.<br/>Let's suppose that we could divide the original mesh. We now have smaller objects that we can inspect. We are looking for revolute shapes, that could be used as reference to create joints at their locations, with the same orientation.<br/>First, remove all objects that are not needed. It is sometimes also useful to work across several opened scenes, for easier visualization/manipulation. In our case, we focus first on the base of the robot: it contains a cylinder that has the correct position for the first joint. In the triangle edit mode, we have:</p>
 <p></p>
 <p>建立關節<br/>現在，我們將照顧關節/馬達。大多數時候，我們知道每個關節的確切位置和方向<br/>在這種情況下，我們只需使用[菜單欄-&gt;添加-&gt;關節-&gt; ...]添加關節，然後可以使用位置對話框和方向對話框更改它們的位置和方向。<br/>在其他情況下，我們只有Denavit-Hartenberg（即D-H）參數。在這種情況下，我們可以通過模型瀏覽器中位於Models / tools / Denavit-Hartenberg聯合creator.ttm中的工具模型來構建關節。<br/>有時，我們沒有關於關節位置和方向的信息。然後，我們需要從導入的網格中提取它們。讓我們假設這是我們的情況。無需處理修改過的，更近似的網格，而是打開一個新場景，然後再次導入原始CAD數據。<br/>大多數時候，我們可以從原始網格中提取網格或基本形狀。第一步是細分原始網格。如果那不起作用，我們將通過三角形編輯模式進行操作。假設我們可以劃分原始網格。現在，我們可以檢查較小的對象。<br/>我們正在尋找旋轉形狀，可以用作在其位置以相同方向創建關節的參考。首先，刪除所有不需要的對象。有時在多個打開的場景中工作也很有用，以便於可視化/操作。<br/>在我們的案例中，我們首先關注機器人的基座：它包含一個圓柱體，該圓柱體的第一個關節的位置正確。在三角形編輯模式下，我們有：</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/_dQdgv7oQHM" width="560"></iframe></p><br />WEEK16 << <a href='WEEK16.html'>Previous</a> </div>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/_dQdgv7oQHM" width="560"></iframe></p>
+<br />WEEK16 << <a href='WEEK16.html'>Previous</a> <a href='WEEK18.html'>Next</a> >> WEEK18</div>
         
     <!-- footer -->
       <div class="container">
