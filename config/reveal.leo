@@ -594,7 +594,7 @@ vertical: body pane on the botton</t>
 &lt;small&gt;
 利用SOLVESPACE畫車子，轉檔放入WEBORT及V-REP。
 &lt;small&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ZT9IxOKT2iI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/p_q02QBF-DU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/p_q02QBF-DU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200110131238.1">&lt;section&gt;
 @others
 &lt;/section&gt;
