@@ -109,7 +109,7 @@
 ### KMOLab
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40723249](http://lab.kmol.info/)
 &lt;/small&gt;
 
 [CMSimfly 網誌](./../blog/index.html)
