@@ -79,6 +79,21 @@
 <v t="leo.20191213151917.3"><vh>LaTeX 格式方程式</vh></v>
 </v>
 </v>
+<v t="leo.20200110131234.1"><vh>WEEK15</vh>
+<v t="leo.20200110131234.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200110131234.3"><vh>LaTeX 格式方程式</vh></v>
+</v>
+</v>
+<v t="leo.20200110131236.1"><vh>WEEK16</vh>
+<v t="leo.20200110131236.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200110131236.3"><vh>LaTeX 格式方程式</vh></v>
+</v>
+</v>
+<v t="leo.20200110131238.1"><vh>WEEK17</vh>
+<v t="leo.20200110131238.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20200110131238.3"><vh>LaTeX 格式方程式</vh></v>
+</v>
+</v>
 </v>
 </v>
 </v>
@@ -536,5 +551,71 @@ vertical: body pane on the botton</t>
 修改機器人馬達的動力使其達到原地旋轉
 &lt;small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ZT9IxOKT2iI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200110131234.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20200110131234.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200110131234.3">## WEEK 15 第一次小考
+
+&lt;small&gt;
+進度回報
+&lt;small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/_MMMvJpFg5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200110131236.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20200110131236.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200110131236.3">## WEEK 16 第二次小考
+
+&lt;small&gt;
+利用SOLVESPACE畫車子，轉檔放入WEBORT及V-REP。
+&lt;small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ZT9IxOKT2iI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/p_q02QBF-DU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200110131238.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20200110131238.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200110131238.3">## WEEK 17 
+
+&lt;small&gt;
+翻譯文章以及製作越野車。
+&lt;small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/_dQdgv7oQHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
